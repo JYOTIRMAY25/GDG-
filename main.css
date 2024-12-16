@@ -1,0 +1,123 @@
+/* General reset for margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333333;
+}
+
+/* Header Styling */
+header {
+    text-align: center;
+    padding: 20px;
+    background: #1c533b; /* Blue shade */
+    color: rgb(16, 2, 2);
+}
+
+header img {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    margin-bottom: 10px;
+    border: 4px solid #ffffff;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-top: 10px;
+}
+
+header h4 {
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+/* Navigation Bar */
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+nav ul li a:hover {
+    color: #ffeb3b; /* Highlight color */
+}
+
+/* Section Styling */
+section {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    text-align: center;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: #283593;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* Skills Section */
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.skill {
+    flex: 1 1 300px;
+    background: #f4f4f9;
+    padding: 15px;
+    border-radius: 10px;
+    border: 2px solid #283593;
+    transition: transform 0.2s ease;
+}
+
+.skill:hover {
+    transform: scale(1.05);
+}
+
+.skill h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.skill p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    background: #283593;
+    color: white;
+    padding: 10px 0;
+    margin-top: 20px;
+}
